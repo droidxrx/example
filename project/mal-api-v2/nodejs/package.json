@@ -1,0 +1,21 @@
+{
+	"name": "@mal-api-v2/nodejs",
+	"version": "1.0.0",
+	"main": "index.js",
+	"author": "DroidXrX <droidxrx@gmail.com> (https://github.com/droidxrx)",
+	"license": "MIT",
+	"scripts": {
+		"server": "npx nodemon"
+	},
+	"nodemonConfig": {
+		"exec": "npx kill-port 8080 && node ./server",
+		"watch": [
+			"./server"
+		],
+		"ext": "js",
+		"ignore": [
+			"node_modules"
+		],
+		"delay": 500
+	}
+}

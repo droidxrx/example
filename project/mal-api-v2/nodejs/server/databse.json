@@ -1,0 +1,12 @@
+{
+	"pkce": {
+		"code_challenge": "xxx",
+		"code_verifier": "xxx"
+	},
+	"token": {
+		"token_type": "Bearer",
+		"expires_in": 2592000,
+		"access_token": "xxx",
+		"refresh_token": "xxx"
+	}
+}

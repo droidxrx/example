@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"name": "✨ root",
+			"path": "."
+		},
+		{
+			"name": "🚀 @mal-api-v2/nodejs",
+			"path": "project\\mal-api-v2\\nodejs"
+		}
+	],
+	"settings": {}
+}

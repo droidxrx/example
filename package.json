@@ -1,0 +1,19 @@
+{
+	"private": true,
+	"name": "root",
+	"scripts": {
+		"server:@mal-api-v2/nodejs": "yarn workspace @mal-api-v2/nodejs run server"
+	},
+	"devDependencies": {
+		"cors": "^2.8.5",
+		"eslint": "^7.32.0",
+		"express": "^4.17.1",
+		"jsonfile": "^6.1.0"
+	},
+	"dependencies": {
+		"mal-api-v2": "^1.0.2"
+	},
+	"workspaces": [
+		"project/**"
+	]
+}
